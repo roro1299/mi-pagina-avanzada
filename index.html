@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Avanzada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a Mi Sitio</h1>
+        <button id="toggle-theme">Cambiar Tema</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="bienvenida">
+            <p>Esta es una página más completa para practicar HTML, CSS y JS.</p>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Aquí puedes incluir una descripción tuya o del proyecto.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicio-list">
+                <p>Diseño Web</p>
+                <p>Desarrollo Frontend</p>
+                <p>Optimización SEO</p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="nombre">Tu nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Tu correo</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Página Avanzada</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
