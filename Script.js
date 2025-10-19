@@ -38,6 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Opcional: resetear el formulario
         contactForm.reset();
     });
-
+//ultimo intento
     console.log("Script.js cargado y funcionando.");
 });
